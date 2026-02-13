@@ -271,21 +271,25 @@
         {
           "id": "github-actions.current-branch",
           "name": "Current Branch",
+          "icon": "resources/icons/light/explorer.svg",
           "when": "github-actions.internet-access && github-actions.signed-in && github-actions.has-repos"
         },
         {
           "id": "github-actions.workflows",
           "name": "Workflows",
+          "icon": "resources/icons/light/explorer.svg",
           "when": "github-actions.internet-access && github-actions.signed-in && github-actions.has-repos"
         },
         {
           "id": "github-actions.settings",
           "name": "Settings",
+          "icon": "resources/icons/light/explorer.svg",
           "when": "github-actions.internet-access && github-actions.signed-in && github-actions.has-repos"
         },
         {
           "id": "github-actions.empty-view",
           "name": "",
+          "icon": "resources/icons/light/explorer.svg",
           "when": "!github-actions.internet-access || !github-actions.signed-in || !github-actions.has-repos"
         }
       ]
